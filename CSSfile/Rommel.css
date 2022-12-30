@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 174, 255);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.Maindiv {
+    width: 220px;
+    height: 93%;
+    background-color: rgb(255, 0, 0);
+
+    position: fixed;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.Maindiv h2 {
+    font-size: 1.3rem;
+    padding: 2px;
+    font-weight: 100;
+    cursor: default;
+}
+
+.Maindiv .Menu{
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+.Maindiv .Menu ul li{
+    font-size: 1rem;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.Menu ul li h4 {
+    padding: 5px 5px;
+}
+
+.Menu .fa-house {
+    padding: 10px 10px;
+    padding-right: 30px;
+}
+
+.Menu .fa-record-vinyl {
+    padding: 10px 10px;
+    padding-right: 30px;
+}
+
+.Menu .fa-music {
+    padding: 10px 10px;
+    padding-right: 30px;
+}
+
+.Menu .fa-calendar-days {
+    padding: 10px 10px;
+    padding-right: 30px;
+}
+
+.Menu .fa-masks-theater {
+    padding: 10px 10px;
+    padding-right: 22px;
+}
+
+.Menu .fa-radio {
+    padding: 10px 10px;
+    padding-right: 26px;
+}
+
+.Menu .fa-clock {
+    padding: 10px 10px;
+    padding-right: 28px;
+}
+
+.Menu .fa-heart-circle-plus {
+    padding: 10px 10px;
+    padding-right: 27px;
+}
+
+.Menu .fa-folder-open {
+    padding: 10px 10px;
+    padding-right: 28px;
+}
+
+.Menu .fa-thumbs-up {
+    padding: 10px 10px;
+    padding-right: 28px;
+}
+
+.Page {
+    width: 83.9%;
+    height: 9%;
+    background-color: blueviolet;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 220px;
+    position: fixed;
+    cursor: pointer;
+}
+.Page .fa-magnifying-glass {
+    font-size: 1.6rem;
+}
+
+.Page .fa-chevron-left{
+    font-size: 1.3rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Page .fa-chevron-right {
+    font-size: 1.3rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Page .searchbar {
+    width: 600px;
+    height: 40px;
+}
+
+.Page .fa-gear {
+    font-size: 1.6rem;
+}
+
+.Page .fa-bell {
+    font-size: 1.6rem;
+}
+
+.Page img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
