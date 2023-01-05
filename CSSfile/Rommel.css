@@ -2,20 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
+    background: linear-gradient(to top, rgb(51, 102, 255), rgb(255, 117, 26));
+}
+
+section {
     width: 100%;
-    height: 100vh;
-    background-color: rgb(0, 174, 255);
+    height: 358px;
+    /*background-color: rgb(0, 174, 255);*/
     font-family: 'Montserrat', sans-serif;
     display: flex;
 }
 
 .Maindiv {
     width: 220px;
-    height: 93%;
-    background-color: rgb(255, 0, 0);
+    height: 100%;
+    /*background-color: rgb(255, 0, 0);*/
+    background: linear-gradient( to bottom, rgb(255, 204, 102),rgb(255, 255, 255));
+    /*border: solid 1px black ;*/
 
     position: fixed;
     padding: 2px;
@@ -97,7 +106,9 @@ body {
 .Page {
     width: 83.9%;
     height: 9%;
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
+    background: linear-gradient(to right,  rgb(255, 204, 102),rgb(255, 255, 255));
+    /*border: solid 1px black ;*/
 
     display: flex;
     justify-content: space-around;
@@ -140,3 +151,4 @@ body {
     height: 50px;
     border-radius: 50%;
 }
+
