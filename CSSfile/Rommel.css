@@ -53,6 +53,17 @@ section {
     padding: 5px 5px;
 }
 
+.Menu h4:hover{
+    color: white;
+    background-color: rgb(128, 191, 255);
+    transition: 0.4s;
+}
+
+.Menu h4:active {
+    color: rgb(255, 102, 255);
+    transition: 0.1s;
+}
+
 .Menu .fa-house {
     padding: 10px 10px;
     padding-right: 30px;
